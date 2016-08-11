@@ -1,4 +1,4 @@
-# Izie Empresas
+# Empresas
 
 ## Style Guide
 
