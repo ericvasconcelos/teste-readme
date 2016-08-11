@@ -171,7 +171,7 @@ A a grid é dividida em até 12, que é representada como col-1, col-2, col-3 e 
 
 
 ### Buttons
-Os botoões podem usar as tags <a>, <button> e <input>.
+Os botoões podem usar as tags *a*, *button* e *input*.
 * text: texto do botão
 * color
 * size: normal, small e large | Default: normal
@@ -179,7 +179,8 @@ Os botoões podem usar as tags <a>, <button> e <input>.
 * filled: true ou false |  Default: true
 * state: active e disabled | Default: active
 * icons: Nome do ícone e posição do ícone. ex.: {name: "name-icon", position: (top, right, bottom e left)}
-*Estados dos botões: active, hover, focus, visited e disabled.*
+* *Estados dos botões: active, hover, focus, visited e disabled.*
+
 ```
 <Button text="Buscar" color="dark-blue" size="large" type="link" state="disabled" filled={false} icon={name: "search", position: "right"} >
 ```
@@ -273,12 +274,14 @@ Estados: Para escolher e para remover
 <Popover direction="bottom" tag={color: "blue", type: "pill"} />
 ```
 
+
 ### Tooltip
 * direction: top, right, bottom e left
 * color
 ```
 <Popover direction="right" color="black" />
 ```
+
 
 ### Smartphone preview
 * background: link com a imagem de fundo
@@ -289,11 +292,13 @@ Estados: Para escolher e para remover
 <Smartphone background="background-image.png" logo="log.png" primary-color="#de34af" secunday-color="#de3466">
 ```
 
+
 ### Filter
 * Component-filtered: Qual componente será filtrado
 ```
 <Filter component-filtered="table" >
 ```
+
 
 ### Helpers Classes
 clearfix
